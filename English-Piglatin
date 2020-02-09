@@ -1,0 +1,7 @@
+def piglatin():
+    sentence = str(input("English Sentence:")).split()
+    for word in sentence:
+        print(word[1:] + word[0] + "ay", end = ' ')
+    print ()
+
+piglatin()
